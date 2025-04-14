@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header {
+    height: auto;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .4); /*Sombra*/
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9c3;
+    color: #fff;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+ul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.imagem img {
+    width: 100%;
+    height: 100%;
+}
+.identificacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f0f0f0;
+}
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:70%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.geral img {
+    width: 30%;
+    height: 25%;
+    border-radius: 150px;
+    margin-top: 10px;
+}
+.redes-sociais {
+    width: 30%;
+    padding-left: 60px;
+    margin-left: -50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+section .descricao {
+    margin-right: 300px;
+}
+.descricao-texto {
+    margin-top: 40px;
+}
+.descricao-texto .descricao-1 {
+    margin-top: 10px;
+}
+    .formacao {
+        margin-left: 335px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: fit-content; /* ou uma largura fixa, tipo 300px */
+        padding: 10px;
+        padding-bottom: 40px;
+        opacity: 1;
+    }
+    .formacao h2 {
+        margin-bottom: 10px;
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .primeira-formacao {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: fit-content; /* ou uma largura fixa, tipo 300px */
+    }
+    .primeira-formacao h2 {
+        margin-bottom: 10px;
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .experiencia {
+        background-color: #f0f0f0; /* cor de fundo cinza claro */
+        padding: 50px; /* espaço interno para dar um respiro */
+        border-radius: 8px; /* cantos arredondados, opcional */
+        margin: 20px 0; /* espaço acima e abaixo */
+        margin-left: -45px;
+        opacity: 1;
+    }
+    .experiencia h2 {
+        margin-bottom: 10px;
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .cargo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 335px;
+        width: fit-content; /* ou uma largura fixa, tipo 300px */
+    }
+    .projeto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 335px;
+        margin-bottom: 60px;
+        width: 100%;
+        max-width: 500px;
+        opacity: 1;
+    }
+    
+    .projeto h2 {
+        margin-bottom: 10px;
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .principal-1 {
+        background-color: #f0f0f0;
+        padding: 70px; /* sugestão */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .descricao-projeto h4{
+        margin-top: -50px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
+    }
+    .secundaria {
+        display: flex;
+        justify-content: space-between; /* espaço entre os itens */
+        align-items: center;            /* centraliza verticalmente */
+        width: 300px;                   /* ou qualquer largura desejada */
+        margin: 0 auto;                 /* centraliza o bloco na página */
+        background-color: #f0f0f0;      /* só pra dar contraste, opcional */
+        border-radius: 8px;
+    }
+    footer{
+        background-color: black;
+        padding: 100px;
+    }
+    footer .info-1{
+        margin-left: -668px;
+        color: white;
+        text-align: center;
+        margin-top: -20px;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contato-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .info{
+        margin-right: 30px;
+        margin-top: -250px;
+    }
+    .info p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .form-01{
+        margin: 10px;
+        padding: 5px;
+        padding-right: 100px;
+    }
+    .form-01 input{
+        margin-top: 10px;
+        padding: 5px;
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    button{
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Verde */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #2b6e2e; /* Verde mais escuro */
+    }
+    .form-1 button{
+        margin-left: 15px;
+    }
+    .form-01 .msg-1{
+        padding: 80px;
+    }
