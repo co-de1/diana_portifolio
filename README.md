@@ -18,5 +18,5 @@ Este projeto foi feito com a intenção de ajudar a Diana em suas habilidades co
 
 ```Python
 def soma(a, b):
-return a + b
+    return a + b
 ```
