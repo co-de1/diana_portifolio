@@ -8,4 +8,4 @@ Este projeto foi feito com a intenção de ajudar a Diana em suas habilidades co
 
 **Nota:** fique livre de copiar os códigos deste projeto.
 
-![Imagem Css](https://beecrowd.com/pt/blog-posts/css/)
+![Imagem Css]([https://beecrowd.com/pt/blog-posts/css/](https://beecrowd.com/wp-content/uploads/2024/04/2022-11-10-CSS.jpg))
