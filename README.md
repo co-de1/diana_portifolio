@@ -16,7 +16,7 @@ Este projeto foi feito com a intenção de ajudar a Diana em suas habilidades co
 
 ### Codigo python
 
-'''Python
+```Python
 def soma(a, b):
 return a + b
-'''
+```
